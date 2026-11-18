@@ -1,0 +1,1663 @@
+{
+  "version": "casekg-question-variants-v1.0",
+  "generated_at": "2026-11-17T21:41:01.383403",
+  "rare_families": [
+    "METABOLIC",
+    "INFLAMMATORY",
+    "REFERRED_PAIN"
+  ],
+  "summary": {
+    "METABOLIC": 24,
+    "INFLAMMATORY": 32,
+    "REFERRED_PAIN": 15
+  },
+  "questions_by_family": {
+    "METABOLIC": [
+      {
+        "question_id": "6.1",
+        "canonical_question": "Is there long-term corticosteroid use?",
+        "question_vi": "Anh/chị có đang sử dụng thuốc corticoid dài ngày không?",
+        "family_affinity": {
+          "INFECTIOUS": 0.45,
+          "NEOPLASTIC": 0.3,
+          "METABOLIC": 0.25
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "long term corticosteroid therapy"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal long-term corticosteroid use?",
+          "Was long-term corticosteroid use documented in the presentation?",
+          "Did examination or history confirm presence of long-term corticosteroid use?",
+          "Is there evidence of long term corticosteroid therapy on clinical review?"
+        ]
+      },
+      {
+        "question_id": "6.2",
+        "canonical_question": "Is there current immunosuppressive medication use or immunosuppression?",
+        "question_vi": "Anh/chị có đang sử dụng thuốc ức chế miễn dịch nào không?",
+        "family_affinity": {
+          "INFECTIOUS": 0.45,
+          "NEOPLASTIC": 0.3,
+          "METABOLIC": 0.25
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "immunosuppression",
+          "immunosuppressive therapy"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal current immunosuppressive medication use or immunosuppression?",
+          "Was current immunosuppressive medication use or immunosuppression documented in the presentation?",
+          "Did examination or history confirm presence of current immunosuppressive medication use or immunosuppression?",
+          "Is there evidence of immunosuppression on clinical review?",
+          "Is there evidence of immunosuppressive therapy on clinical review?"
+        ]
+      },
+      {
+        "question_id": "6.3",
+        "canonical_question": "Is there a history of intravenous drug use?",
+        "question_vi": "Anh/chị có tiền sử tiêm chích ma túy không?",
+        "family_affinity": {
+          "INFECTIOUS": 0.45,
+          "NEOPLASTIC": 0.3,
+          "METABOLIC": 0.25
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "intravenous drug use"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal a history of intravenous drug use?",
+          "Was a history of intravenous drug use documented in the presentation?",
+          "Did examination or history confirm presence of a history of intravenous drug use?",
+          "Is there evidence of intravenous drug use on clinical review?"
+        ]
+      },
+      {
+        "question_id": "7.1",
+        "canonical_question": "Is there urinary retention or difficulty initiating urination?",
+        "question_vi": "Anh/chị có gặp khó khăn khi đi tiểu (bị bí tiểu) không?",
+        "family_affinity": {
+          "MECHANICAL": 0.4,
+          "NEOPLASTIC": 0.25,
+          "INFECTIOUS": 0.2,
+          "METABOLIC": 0.15
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "urinary retention"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal urinary retention or difficulty initiating urination?",
+          "Was urinary retention or difficulty initiating urination documented in the presentation?",
+          "Did examination or history confirm presence of urinary retention or difficulty initiating urination?",
+          "Is there evidence of urinary retention on clinical review?"
+        ]
+      },
+      {
+        "question_id": "7.2",
+        "canonical_question": "Is there new urinary incontinence?",
+        "question_vi": "Anh/chị có bị són tiểu không kiểm soát gần đây không?",
+        "family_affinity": {
+          "MECHANICAL": 0.4,
+          "NEOPLASTIC": 0.25,
+          "INFECTIOUS": 0.2,
+          "METABOLIC": 0.15
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "urinary incontinence"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal new urinary incontinence?",
+          "Was new urinary incontinence documented in the presentation?",
+          "Did examination or history confirm presence of new urinary incontinence?",
+          "Is there evidence of urinary incontinence on clinical review?"
+        ]
+      },
+      {
+        "question_id": "7.3",
+        "canonical_question": "Is there fecal incontinence or loss of bowel control?",
+        "question_vi": "Anh/chị có bị đại tiện không tự chủ (són phân) không?",
+        "family_affinity": {
+          "MECHANICAL": 0.4,
+          "NEOPLASTIC": 0.25,
+          "INFECTIOUS": 0.2,
+          "METABOLIC": 0.15
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "fecal incontinence"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal fecal incontinence or loss of bowel control?",
+          "Was fecal incontinence or loss of bowel control documented in the presentation?",
+          "Did examination or history confirm presence of fecal incontinence or loss of bowel control?",
+          "Is there evidence of fecal incontinence on clinical review?"
+        ]
+      },
+      {
+        "question_id": "7.4",
+        "canonical_question": "Is there numbness in the perineal or genital region?",
+        "question_vi": "Anh/chị có bị tê vùng kín (vùng háng/cơ quan sinh dục) không?",
+        "family_affinity": {
+          "MECHANICAL": 0.4,
+          "NEOPLASTIC": 0.25,
+          "INFECTIOUS": 0.2,
+          "METABOLIC": 0.15
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "perineal numbness"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal numbness in the perineal or genital region?",
+          "Was numbness in the perineal or genital region documented in the presentation?",
+          "Did examination or history confirm presence of numbness in the perineal or genital region?",
+          "Is there evidence of perineal numbness on clinical review?"
+        ]
+      },
+      {
+        "question_id": "7.5",
+        "canonical_question": "Is there saddle-area or buttock numbness?",
+        "question_vi": "Anh/chị có bị tê vùng mông nơi tiếp xúc với yên xe không?",
+        "family_affinity": {
+          "MECHANICAL": 0.4,
+          "NEOPLASTIC": 0.25,
+          "INFECTIOUS": 0.2,
+          "METABOLIC": 0.15
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "saddle anesthesia",
+          "buttock numbness"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal saddle-area or buttock numbness?",
+          "Was saddle-area or buttock numbness documented in the presentation?",
+          "Did examination or history confirm presence of saddle-area or buttock numbness?",
+          "Is there evidence of saddle anesthesia on clinical review?",
+          "Is there evidence of buttock numbness on clinical review?"
+        ]
+      },
+      {
+        "question_id": "7.6",
+        "canonical_question": "Is there rapidly progressive bilateral leg weakness?",
+        "question_vi": "Anh/chị có thấy hai chân bị yếu đi nhanh chóng gần đây không?",
+        "family_affinity": {
+          "MECHANICAL": 0.4,
+          "NEOPLASTIC": 0.25,
+          "INFECTIOUS": 0.2,
+          "METABOLIC": 0.15
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "progressive bilateral leg weakness"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal rapidly progressive bilateral leg weakness?",
+          "Was rapidly progressive bilateral leg weakness documented in the presentation?",
+          "Did examination or history confirm presence of rapidly progressive bilateral leg weakness?",
+          "Is there evidence of progressive bilateral leg weakness on clinical review?"
+        ]
+      },
+      {
+        "question_id": "7.7",
+        "canonical_question": "Is walking impaired because of leg weakness?",
+        "question_vi": "Anh/chị có gặp khó khăn khi đi lại do yếu chân không?",
+        "family_affinity": {
+          "MECHANICAL": 0.4,
+          "NEOPLASTIC": 0.25,
+          "INFECTIOUS": 0.2,
+          "METABOLIC": 0.15
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "gait impairment",
+          "leg weakness"
+        ],
+        "variants": [
+          "Is Is walking impaired because of leg weakness clinically present?",
+          "Does the report confirm Is walking impaired because of leg weakness?",
+          "Is there evidence of gait impairment on clinical review?",
+          "Is there evidence of leg weakness on clinical review?"
+        ]
+      },
+      {
+        "question_id": "12.1",
+        "canonical_question": "Does imaging show an osteolytic, sclerotic, or marrow-replacing lesion?",
+        "question_vi": "",
+        "family_affinity": {
+          "NEOPLASTIC": 0.9,
+          "METABOLIC": 0.1
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION",
+          "DIAGNOSTIC_ASSESSMENT"
+        ],
+        "ontology_seeds": [
+          "osteolytic lesion",
+          "osteosclerotic lesion",
+          "bone marrow infiltration"
+        ],
+        "variants": [
+          "Is there evidence that imaging show an osteolytic, sclerotic, or marrow-replacing lesion?",
+          "Did clinical investigations show that imaging show an osteolytic, sclerotic, or marrow-replacing lesion?",
+          "Is there evidence of osteolytic lesion on clinical review?",
+          "Is there evidence of osteosclerotic lesion on clinical review?"
+        ]
+      },
+      {
+        "question_id": "12.3",
+        "canonical_question": "Are multiple skeletal or visceral lesions present?",
+        "question_vi": "",
+        "family_affinity": {
+          "NEOPLASTIC": 0.9,
+          "METABOLIC": 0.1
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "multiple bone lesions",
+          "multiple metastases"
+        ],
+        "variants": [
+          "Is Are multiple skeletal or visceral lesions present clinically present?",
+          "Does the report confirm Are multiple skeletal or visceral lesions present?",
+          "Is there evidence of multiple bone lesions on clinical review?",
+          "Is there evidence of multiple metastases on clinical review?"
+        ]
+      },
+      {
+        "question_id": "14.1",
+        "canonical_question": "Is osteoporosis, osteopenia, or reduced bone density known or demonstrated?",
+        "question_vi": "",
+        "family_affinity": {
+          "METABOLIC": 1.0
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "osteoporosis",
+          "osteopenia",
+          "decreased bone mineral density"
+        ],
+        "variants": [
+          "Is Is osteoporosis, osteopenia, or reduced bone density known or demonstrated clinically present?",
+          "Does the report confirm Is osteoporosis, osteopenia, or reduced bone density known or demonstrated?",
+          "Is there evidence of osteoporosis on clinical review?",
+          "Is there evidence of osteopenia on clinical review?"
+        ]
+      },
+      {
+        "question_id": "14.2",
+        "canonical_question": "Did a vertebral fracture occur after minimal or no trauma?",
+        "question_vi": "",
+        "family_affinity": {
+          "METABOLIC": 0.75,
+          "MECHANICAL": 0.25
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "pathologic fracture",
+          "fragility fracture",
+          "vertebral compression fracture"
+        ],
+        "variants": [
+          "Is Did a vertebral fracture occur after minimal or no trauma clinically present?",
+          "Does the report confirm Did a vertebral fracture occur after minimal or no trauma?",
+          "Is there evidence of pathologic fracture on clinical review?",
+          "Is there evidence of fragility fracture on clinical review?"
+        ]
+      },
+      {
+        "question_id": "14.3",
+        "canonical_question": "Are calcium, phosphate, vitamin D, parathyroid, or renal-bone markers abnormal?",
+        "question_vi": "",
+        "family_affinity": {
+          "METABOLIC": 1.0
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "abnormal calcium level",
+          "abnormal phosphate level",
+          "vitamin D deficiency",
+          "hyperparathyroidism"
+        ],
+        "variants": [
+          "Is Are calcium, phosphate, vitamin D, parathyroid, or renal-bone markers abnormal clinically present?",
+          "Does the report confirm Are calcium, phosphate, vitamin D, parathyroid, or renal-bone markers abnormal?",
+          "Is there evidence of abnormal calcium level on clinical review?",
+          "Is there evidence of abnormal phosphate level on clinical review?"
+        ]
+      },
+      {
+        "question_id": "14.4",
+        "canonical_question": "Does imaging show diffuse demineralization, abnormal calcification, or altered bone texture?",
+        "question_vi": "",
+        "family_affinity": {
+          "METABOLIC": 1.0
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION",
+          "DIAGNOSTIC_ASSESSMENT"
+        ],
+        "ontology_seeds": [
+          "bone demineralization",
+          "pathologic calcification",
+          "abnormal bone structure"
+        ],
+        "variants": [
+          "Is there evidence that imaging show diffuse demineralization, abnormal calcification, or altered bone texture?",
+          "Did clinical investigations show that imaging show diffuse demineralization, abnormal calcification, or altered bone texture?",
+          "Is there evidence of bone demineralization on clinical review?",
+          "Is there evidence of pathologic calcification on clinical review?"
+        ]
+      },
+      {
+        "question_id": "14.5",
+        "canonical_question": "Is there chronic kidney, endocrine, malabsorption, or inherited metabolic disease?",
+        "question_vi": "",
+        "family_affinity": {
+          "METABOLIC": 1.0
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY"
+        ],
+        "ontology_seeds": [
+          "chronic kidney disease",
+          "endocrine disease",
+          "malabsorption",
+          "inborn error of metabolism"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal chronic kidney, endocrine, malabsorption, or inherited metabolic disease?",
+          "Was chronic kidney, endocrine, malabsorption, or inherited metabolic disease documented in the presentation?",
+          "Did examination or history confirm presence of chronic kidney, endocrine, malabsorption, or inherited metabolic disease?",
+          "Is there evidence of chronic kidney disease on clinical review?",
+          "Is there evidence of endocrine disease on clinical review?"
+        ]
+      },
+      {
+        "question_id": "12.1",
+        "canonical_question": "Does imaging show an osteolytic, sclerotic, or marrow-replacing lesion?",
+        "question_vi": "",
+        "family_affinity": {
+          "NEOPLASTIC": 0.9,
+          "METABOLIC": 0.1
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION",
+          "DIAGNOSTIC_ASSESSMENT"
+        ],
+        "ontology_seeds": [
+          "osteolytic lesion",
+          "osteosclerotic lesion",
+          "bone marrow infiltration"
+        ],
+        "variants": [
+          "Is there evidence that imaging show an osteolytic, sclerotic, or marrow-replacing lesion?",
+          "Did clinical investigations show that imaging show an osteolytic, sclerotic, or marrow-replacing lesion?",
+          "Is there evidence of osteolytic lesion on clinical review?",
+          "Is there evidence of osteosclerotic lesion on clinical review?"
+        ]
+      },
+      {
+        "question_id": "12.3",
+        "canonical_question": "Are multiple skeletal or visceral lesions present?",
+        "question_vi": "",
+        "family_affinity": {
+          "NEOPLASTIC": 0.9,
+          "METABOLIC": 0.1
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "multiple bone lesions",
+          "multiple metastases"
+        ],
+        "variants": [
+          "Is Are multiple skeletal or visceral lesions present clinically present?",
+          "Does the report confirm Are multiple skeletal or visceral lesions present?",
+          "Is there evidence of multiple bone lesions on clinical review?",
+          "Is there evidence of multiple metastases on clinical review?"
+        ]
+      },
+      {
+        "question_id": "14.1",
+        "canonical_question": "Is osteoporosis, osteopenia, or reduced bone density known or demonstrated?",
+        "question_vi": "",
+        "family_affinity": {
+          "METABOLIC": 1.0
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "osteoporosis",
+          "osteopenia",
+          "decreased bone mineral density"
+        ],
+        "variants": [
+          "Is Is osteoporosis, osteopenia, or reduced bone density known or demonstrated clinically present?",
+          "Does the report confirm Is osteoporosis, osteopenia, or reduced bone density known or demonstrated?",
+          "Is there evidence of osteoporosis on clinical review?",
+          "Is there evidence of osteopenia on clinical review?"
+        ]
+      },
+      {
+        "question_id": "14.2",
+        "canonical_question": "Did a vertebral fracture occur after minimal or no trauma?",
+        "question_vi": "",
+        "family_affinity": {
+          "METABOLIC": 0.75,
+          "MECHANICAL": 0.25
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "pathologic fracture",
+          "fragility fracture",
+          "vertebral compression fracture"
+        ],
+        "variants": [
+          "Is Did a vertebral fracture occur after minimal or no trauma clinically present?",
+          "Does the report confirm Did a vertebral fracture occur after minimal or no trauma?",
+          "Is there evidence of pathologic fracture on clinical review?",
+          "Is there evidence of fragility fracture on clinical review?"
+        ]
+      },
+      {
+        "question_id": "14.3",
+        "canonical_question": "Are calcium, phosphate, vitamin D, parathyroid, or renal-bone markers abnormal?",
+        "question_vi": "",
+        "family_affinity": {
+          "METABOLIC": 1.0
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "abnormal calcium level",
+          "abnormal phosphate level",
+          "vitamin D deficiency",
+          "hyperparathyroidism"
+        ],
+        "variants": [
+          "Is Are calcium, phosphate, vitamin D, parathyroid, or renal-bone markers abnormal clinically present?",
+          "Does the report confirm Are calcium, phosphate, vitamin D, parathyroid, or renal-bone markers abnormal?",
+          "Is there evidence of abnormal calcium level on clinical review?",
+          "Is there evidence of abnormal phosphate level on clinical review?"
+        ]
+      },
+      {
+        "question_id": "14.4",
+        "canonical_question": "Does imaging show diffuse demineralization, abnormal calcification, or altered bone texture?",
+        "question_vi": "",
+        "family_affinity": {
+          "METABOLIC": 1.0
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION",
+          "DIAGNOSTIC_ASSESSMENT"
+        ],
+        "ontology_seeds": [
+          "bone demineralization",
+          "pathologic calcification",
+          "abnormal bone structure"
+        ],
+        "variants": [
+          "Is there evidence that imaging show diffuse demineralization, abnormal calcification, or altered bone texture?",
+          "Did clinical investigations show that imaging show diffuse demineralization, abnormal calcification, or altered bone texture?",
+          "Is there evidence of bone demineralization on clinical review?",
+          "Is there evidence of pathologic calcification on clinical review?"
+        ]
+      },
+      {
+        "question_id": "14.5",
+        "canonical_question": "Is there chronic kidney, endocrine, malabsorption, or inherited metabolic disease?",
+        "question_vi": "",
+        "family_affinity": {
+          "METABOLIC": 1.0
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY"
+        ],
+        "ontology_seeds": [
+          "chronic kidney disease",
+          "endocrine disease",
+          "malabsorption",
+          "inborn error of metabolism"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal chronic kidney, endocrine, malabsorption, or inherited metabolic disease?",
+          "Was chronic kidney, endocrine, malabsorption, or inherited metabolic disease documented in the presentation?",
+          "Did examination or history confirm presence of chronic kidney, endocrine, malabsorption, or inherited metabolic disease?",
+          "Is there evidence of chronic kidney disease on clinical review?",
+          "Is there evidence of endocrine disease on clinical review?"
+        ]
+      }
+    ],
+    "INFLAMMATORY": [
+      {
+        "question_id": "2.1",
+        "canonical_question": "Was there a previous similar episode of back pain?",
+        "question_vi": "Trước đây anh/chị đã từng bị cơn đau lưng tương tự chưa?",
+        "family_affinity": {
+          "MECHANICAL": 0.45,
+          "INFLAMMATORY": 0.4,
+          "NEOPLASTIC": 0.15
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "recurrent low back pain"
+        ],
+        "variants": [
+          "Did the history include a previous similar episode of back pain?",
+          "Is a previous similar episode of back pain reported in the patient's medical background?",
+          "Is there evidence of recurrent low back pain on clinical review?"
+        ]
+      },
+      {
+        "question_id": "2.2",
+        "canonical_question": "If prior episodes occurred, how long did they last?",
+        "question_vi": "(Nếu có) Các đợt đau lưng trước đây kéo dài bao lâu?",
+        "family_affinity": {
+          "MECHANICAL": 0.45,
+          "INFLAMMATORY": 0.4,
+          "NEOPLASTIC": 0.15
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "duration of pain"
+        ],
+        "variants": [
+          "Is If prior episodes occurred, how long did they last clinically present?",
+          "Does the report confirm If prior episodes occurred, how long did they last?",
+          "Is there evidence of duration of pain on clinical review?"
+        ]
+      },
+      {
+        "question_id": "2.3",
+        "canonical_question": "Did this back pain begin before age 40?",
+        "question_vi": "Cơn đau lưng này có phải bắt đầu từ trước năm 40 tuổi không?",
+        "family_affinity": {
+          "MECHANICAL": 0.45,
+          "INFLAMMATORY": 0.4,
+          "NEOPLASTIC": 0.15
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "young onset back pain"
+        ],
+        "variants": [
+          "Is Did this back pain begin before age 40 clinically present?",
+          "Does the report confirm Did this back pain begin before age 40?",
+          "Is there evidence of young onset back pain on clinical review?"
+        ]
+      },
+      {
+        "question_id": "2.4",
+        "canonical_question": "Was the onset gradual with progressive worsening?",
+        "question_vi": "Cơn đau này xuất hiện và tăng dần một cách từ từ đúng không?",
+        "family_affinity": {
+          "MECHANICAL": 0.45,
+          "INFLAMMATORY": 0.4,
+          "NEOPLASTIC": 0.15
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "gradual onset",
+          "progressive pain"
+        ],
+        "variants": [
+          "Is Was the onset gradual with progressive worsening clinically present?",
+          "Does the report confirm Was the onset gradual with progressive worsening?",
+          "Is there evidence of gradual onset on clinical review?",
+          "Is there evidence of progressive pain on clinical review?"
+        ]
+      },
+      {
+        "question_id": "5.1",
+        "canonical_question": "Is the pain persistent and progressively worsening over time?",
+        "question_vi": "Cơn đau có xuất hiện liên tục và tăng dần theo thời gian không?",
+        "family_affinity": {
+          "NEOPLASTIC": 0.45,
+          "INFECTIOUS": 0.35,
+          "INFLAMMATORY": 0.2
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "progressive persistent pain"
+        ],
+        "variants": [
+          "Is Is the pain persistent and progressively worsening over time clinically present?",
+          "Does the report confirm Is the pain persistent and progressively worsening over time?",
+          "Is there evidence of progressive persistent pain on clinical review?"
+        ]
+      },
+      {
+        "question_id": "5.2",
+        "canonical_question": "Does the pain occur at night?",
+        "question_vi": "Cơn đau có xuất hiện vào ban đêm không?",
+        "family_affinity": {
+          "NEOPLASTIC": 0.45,
+          "INFECTIOUS": 0.35,
+          "INFLAMMATORY": 0.2
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "night pain"
+        ],
+        "variants": [
+          "Is there evidence that the pain occur at night?",
+          "Did clinical investigations show that the pain occur at night?",
+          "Is there evidence of night pain on clinical review?"
+        ]
+      },
+      {
+        "question_id": "5.3",
+        "canonical_question": "Does nighttime pain wake the patient from sleep?",
+        "question_vi": "Cơn đau đêm có khiến anh/chị bị thức giấc không?",
+        "family_affinity": {
+          "NEOPLASTIC": 0.45,
+          "INFECTIOUS": 0.35,
+          "INFLAMMATORY": 0.2
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "pain awakening from sleep"
+        ],
+        "variants": [
+          "Is there evidence that nighttime pain wake the patient from sleep?",
+          "Did clinical investigations show that nighttime pain wake the patient from sleep?",
+          "Is there evidence of pain awakening from sleep on clinical review?"
+        ]
+      },
+      {
+        "question_id": "5.4",
+        "canonical_question": "Does the pain improve at all when lying still?",
+        "question_vi": "Khi nằm yên, cơn đau có thuyên giảm chút nào không?",
+        "family_affinity": {
+          "NEOPLASTIC": 0.45,
+          "INFECTIOUS": 0.35,
+          "INFLAMMATORY": 0.2
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "pain not relieved by rest"
+        ],
+        "variants": [
+          "Is there evidence that the pain improve at all when lying still?",
+          "Did clinical investigations show that the pain improve at all when lying still?",
+          "Is there evidence of pain not relieved by rest on clinical review?"
+        ]
+      },
+      {
+        "question_id": "5.8",
+        "canonical_question": "Has there been recent fever?",
+        "question_vi": "Anh/chị có bị sốt gần đây không?",
+        "family_affinity": {
+          "INFECTIOUS": 0.8,
+          "INFLAMMATORY": 0.2
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "fever"
+        ],
+        "variants": [
+          "Is Has there been recent fever clinically present?",
+          "Does the report confirm Has there been recent fever?",
+          "Is there evidence of fever on clinical review?"
+        ]
+      },
+      {
+        "question_id": "5.9",
+        "canonical_question": "Has there been recent chills or rigors?",
+        "question_vi": "Anh/chị có bị ớn lạnh gần đây không?",
+        "family_affinity": {
+          "INFECTIOUS": 0.9,
+          "INFLAMMATORY": 0.1
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "chills",
+          "rigors"
+        ],
+        "variants": [
+          "Is Has there been recent chills or rigors clinically present?",
+          "Does the report confirm Has there been recent chills or rigors?",
+          "Is there evidence of chills on clinical review?",
+          "Is there evidence of rigors on clinical review?"
+        ]
+      },
+      {
+        "question_id": "5.10",
+        "canonical_question": "Has there been persistent recent fatigue or malaise?",
+        "question_vi": "Anh/chị có cảm thấy mệt mỏi kéo dài gần đây không?",
+        "family_affinity": {
+          "INFECTIOUS": 0.4,
+          "INFLAMMATORY": 0.3,
+          "NEOPLASTIC": 0.3
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "fatigue",
+          "malaise"
+        ],
+        "variants": [
+          "Is Has there been persistent recent fatigue or malaise clinically present?",
+          "Does the report confirm Has there been persistent recent fatigue or malaise?",
+          "Is there evidence of fatigue on clinical review?",
+          "Is there evidence of malaise on clinical review?"
+        ]
+      },
+      {
+        "question_id": "8.1",
+        "canonical_question": "Is there morning stiffness?",
+        "question_vi": "Anh/chị có bị cứng khớp vào buổi sáng không?",
+        "family_affinity": {
+          "INFLAMMATORY": 1.0
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "morning stiffness"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal morning stiffness?",
+          "Was morning stiffness documented in the presentation?",
+          "Did examination or history confirm presence of morning stiffness?",
+          "Is there evidence of morning stiffness on clinical review?"
+        ]
+      },
+      {
+        "question_id": "8.2",
+        "canonical_question": "If morning stiffness occurs, does it last more than 30 minutes?",
+        "question_vi": "(Nếu có) Tình trạng cứng khớp buổi sáng có kéo dài trên 30 phút không?",
+        "family_affinity": {
+          "INFLAMMATORY": 1.0
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "prolonged morning stiffness"
+        ],
+        "variants": [
+          "Is If morning stiffness occurs, does it last more than 30 minutes clinically present?",
+          "Does the report confirm If morning stiffness occurs, does it last more than 30 minutes?",
+          "Is there evidence of prolonged morning stiffness on clinical review?"
+        ]
+      },
+      {
+        "question_id": "8.3",
+        "canonical_question": "Does back pain improve with exercise or physical activity?",
+        "question_vi": "Cơn đau lưng có giảm đi khi anh/chị tập thể dục hoặc vận động không?",
+        "family_affinity": {
+          "INFLAMMATORY": 1.0
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "back pain improves with exercise"
+        ],
+        "variants": [
+          "Is there evidence that back pain improve with exercise or physical activity?",
+          "Did clinical investigations show that back pain improve with exercise or physical activity?",
+          "Is there evidence of back pain improves with exercise on clinical review?"
+        ]
+      },
+      {
+        "question_id": "8.4",
+        "canonical_question": "Does back pain worsen with rest?",
+        "question_vi": "Cơn đau lưng có tệ hơn khi anh/chị nghỉ ngơi không?",
+        "family_affinity": {
+          "INFLAMMATORY": 1.0
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "back pain worsens with rest"
+        ],
+        "variants": [
+          "Is there evidence that back pain worsen with rest?",
+          "Did clinical investigations show that back pain worsen with rest?",
+          "Is there evidence of back pain worsens with rest on clinical review?"
+        ]
+      },
+      {
+        "question_id": "8.5",
+        "canonical_question": "Is there alternating buttock pain?",
+        "question_vi": "Cơn đau có luân phiên thay đổi giữa hai bên mông không?",
+        "family_affinity": {
+          "INFLAMMATORY": 1.0
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "alternating buttock pain"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal alternating buttock pain?",
+          "Was alternating buttock pain documented in the presentation?",
+          "Did examination or history confirm presence of alternating buttock pain?",
+          "Is there evidence of alternating buttock pain on clinical review?"
+        ]
+      },
+      {
+        "question_id": "11.2",
+        "canonical_question": "Are inflammatory markers such as CRP or ESR elevated?",
+        "question_vi": "",
+        "family_affinity": {
+          "INFECTIOUS": 0.55,
+          "INFLAMMATORY": 0.45
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "elevated C-reactive protein",
+          "elevated erythrocyte sedimentation rate"
+        ],
+        "variants": [
+          "Is Are inflammatory markers such as CRP or ESR elevated clinically present?",
+          "Does the report confirm Are inflammatory markers such as CRP or ESR elevated?",
+          "Is there evidence of elevated C-reactive protein on clinical review?",
+          "Is there evidence of elevated erythrocyte sedimentation rate on clinical review?"
+        ]
+      },
+      {
+        "question_id": "11.5",
+        "canonical_question": "Does imaging show disc-space and adjacent vertebral endplate involvement?",
+        "question_vi": "",
+        "family_affinity": {
+          "INFECTIOUS": 0.8,
+          "INFLAMMATORY": 0.2
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION",
+          "DIAGNOSTIC_ASSESSMENT"
+        ],
+        "ontology_seeds": [
+          "discitis",
+          "vertebral endplate abnormality",
+          "spondylodiscitis"
+        ],
+        "variants": [
+          "Is there evidence that imaging show disc-space and adjacent vertebral endplate involvement?",
+          "Did clinical investigations show that imaging show disc-space and adjacent vertebral endplate involvement?",
+          "Is there evidence of discitis on clinical review?",
+          "Is there evidence of vertebral endplate abnormality on clinical review?"
+        ]
+      },
+      {
+        "question_id": "13.1",
+        "canonical_question": "Is there psoriasis, uveitis, inflammatory bowel disease, or enthesitis?",
+        "question_vi": "",
+        "family_affinity": {
+          "INFLAMMATORY": 1.0
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "psoriasis",
+          "uveitis",
+          "inflammatory bowel disease",
+          "enthesitis"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal psoriasis, uveitis, inflammatory bowel disease, or enthesitis?",
+          "Was psoriasis, uveitis, inflammatory bowel disease, or enthesitis documented in the presentation?",
+          "Did examination or history confirm presence of psoriasis, uveitis, inflammatory bowel disease, or enthesitis?",
+          "Is there evidence of psoriasis on clinical review?",
+          "Is there evidence of uveitis on clinical review?"
+        ]
+      },
+      {
+        "question_id": "13.2",
+        "canonical_question": "Is there a family history of spondyloarthritis or related immune-mediated disease?",
+        "question_vi": "",
+        "family_affinity": {
+          "INFLAMMATORY": 1.0
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY"
+        ],
+        "ontology_seeds": [
+          "family history of ankylosing spondylitis",
+          "family history of autoimmune disease"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal a family history of spondyloarthritis or related immune-mediated disease?",
+          "Was a family history of spondyloarthritis or related immune-mediated disease documented in the presentation?",
+          "Did examination or history confirm presence of a family history of spondyloarthritis or related immune-mediated disease?",
+          "Is there evidence of family history of ankylosing spondylitis on clinical review?",
+          "Is there evidence of family history of autoimmune disease on clinical review?"
+        ]
+      },
+      {
+        "question_id": "13.3",
+        "canonical_question": "Does imaging show sacroiliitis, syndesmophytes, or inflammatory corner lesions?",
+        "question_vi": "",
+        "family_affinity": {
+          "INFLAMMATORY": 1.0
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION",
+          "DIAGNOSTIC_ASSESSMENT"
+        ],
+        "ontology_seeds": [
+          "sacroiliitis",
+          "syndesmophyte",
+          "vertebral corner lesion"
+        ],
+        "variants": [
+          "Is there evidence that imaging show sacroiliitis, syndesmophytes, or inflammatory corner lesions?",
+          "Did clinical investigations show that imaging show sacroiliitis, syndesmophytes, or inflammatory corner lesions?",
+          "Is there evidence of sacroiliitis on clinical review?",
+          "Is there evidence of syndesmophyte on clinical review?"
+        ]
+      },
+      {
+        "question_id": "13.4",
+        "canonical_question": "Is HLA-B27 or another disease-relevant autoimmune marker positive?",
+        "question_vi": "",
+        "family_affinity": {
+          "INFLAMMATORY": 1.0
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "HLA-B27 positive",
+          "autoantibody positive"
+        ],
+        "variants": [
+          "Is Is HLA-B27 or another disease-relevant autoimmune marker positive clinically present?",
+          "Does the report confirm Is HLA-B27 or another disease-relevant autoimmune marker positive?",
+          "Is there evidence of HLA-B27 positive on clinical review?",
+          "Is there evidence of autoantibody positive on clinical review?"
+        ]
+      },
+      {
+        "question_id": "13.5",
+        "canonical_question": "Are symptoms episodic with inflammatory flares or peripheral joint inflammation?",
+        "question_vi": "",
+        "family_affinity": {
+          "INFLAMMATORY": 1.0
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "arthritis flare",
+          "peripheral arthritis",
+          "joint inflammation"
+        ],
+        "variants": [
+          "Is Are symptoms episodic with inflammatory flares or peripheral joint inflammation clinically present?",
+          "Does the report confirm Are symptoms episodic with inflammatory flares or peripheral joint inflammation?",
+          "Is there evidence of arthritis flare on clinical review?",
+          "Is there evidence of peripheral arthritis on clinical review?"
+        ]
+      },
+      {
+        "question_id": "16.4",
+        "canonical_question": "Are motor, sensory, reflex, straight-leg-raise, or gait abnormalities present?",
+        "question_vi": "",
+        "family_affinity": {
+          "MECHANICAL": 0.5,
+          "NEOPLASTIC": 0.2,
+          "INFECTIOUS": 0.15,
+          "INFLAMMATORY": 0.15
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "muscle weakness",
+          "sensory deficit",
+          "abnormal reflex",
+          "positive straight leg raise test",
+          "gait abnormality"
+        ],
+        "variants": [
+          "Is Are motor, sensory, reflex, straight-leg-raise, or gait abnormalities present clinically present?",
+          "Does the report confirm Are motor, sensory, reflex, straight-leg-raise, or gait abnormalities present?",
+          "Is there evidence of muscle weakness on clinical review?",
+          "Is there evidence of sensory deficit on clinical review?"
+        ]
+      },
+      {
+        "question_id": "11.2",
+        "canonical_question": "Are inflammatory markers such as CRP or ESR elevated?",
+        "question_vi": "",
+        "family_affinity": {
+          "INFECTIOUS": 0.55,
+          "INFLAMMATORY": 0.45
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "elevated C-reactive protein",
+          "elevated erythrocyte sedimentation rate"
+        ],
+        "variants": [
+          "Is Are inflammatory markers such as CRP or ESR elevated clinically present?",
+          "Does the report confirm Are inflammatory markers such as CRP or ESR elevated?",
+          "Is there evidence of elevated C-reactive protein on clinical review?",
+          "Is there evidence of elevated erythrocyte sedimentation rate on clinical review?"
+        ]
+      },
+      {
+        "question_id": "11.5",
+        "canonical_question": "Does imaging show disc-space and adjacent vertebral endplate involvement?",
+        "question_vi": "",
+        "family_affinity": {
+          "INFECTIOUS": 0.8,
+          "INFLAMMATORY": 0.2
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION",
+          "DIAGNOSTIC_ASSESSMENT"
+        ],
+        "ontology_seeds": [
+          "discitis",
+          "vertebral endplate abnormality",
+          "spondylodiscitis"
+        ],
+        "variants": [
+          "Is there evidence that imaging show disc-space and adjacent vertebral endplate involvement?",
+          "Did clinical investigations show that imaging show disc-space and adjacent vertebral endplate involvement?",
+          "Is there evidence of discitis on clinical review?",
+          "Is there evidence of vertebral endplate abnormality on clinical review?"
+        ]
+      },
+      {
+        "question_id": "13.1",
+        "canonical_question": "Is there psoriasis, uveitis, inflammatory bowel disease, or enthesitis?",
+        "question_vi": "",
+        "family_affinity": {
+          "INFLAMMATORY": 1.0
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "psoriasis",
+          "uveitis",
+          "inflammatory bowel disease",
+          "enthesitis"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal psoriasis, uveitis, inflammatory bowel disease, or enthesitis?",
+          "Was psoriasis, uveitis, inflammatory bowel disease, or enthesitis documented in the presentation?",
+          "Did examination or history confirm presence of psoriasis, uveitis, inflammatory bowel disease, or enthesitis?",
+          "Is there evidence of psoriasis on clinical review?",
+          "Is there evidence of uveitis on clinical review?"
+        ]
+      },
+      {
+        "question_id": "13.2",
+        "canonical_question": "Is there a family history of spondyloarthritis or related immune-mediated disease?",
+        "question_vi": "",
+        "family_affinity": {
+          "INFLAMMATORY": 1.0
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY"
+        ],
+        "ontology_seeds": [
+          "family history of ankylosing spondylitis",
+          "family history of autoimmune disease"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal a family history of spondyloarthritis or related immune-mediated disease?",
+          "Was a family history of spondyloarthritis or related immune-mediated disease documented in the presentation?",
+          "Did examination or history confirm presence of a family history of spondyloarthritis or related immune-mediated disease?",
+          "Is there evidence of family history of ankylosing spondylitis on clinical review?",
+          "Is there evidence of family history of autoimmune disease on clinical review?"
+        ]
+      },
+      {
+        "question_id": "13.3",
+        "canonical_question": "Does imaging show sacroiliitis, syndesmophytes, or inflammatory corner lesions?",
+        "question_vi": "",
+        "family_affinity": {
+          "INFLAMMATORY": 1.0
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION",
+          "DIAGNOSTIC_ASSESSMENT"
+        ],
+        "ontology_seeds": [
+          "sacroiliitis",
+          "syndesmophyte",
+          "vertebral corner lesion"
+        ],
+        "variants": [
+          "Is there evidence that imaging show sacroiliitis, syndesmophytes, or inflammatory corner lesions?",
+          "Did clinical investigations show that imaging show sacroiliitis, syndesmophytes, or inflammatory corner lesions?",
+          "Is there evidence of sacroiliitis on clinical review?",
+          "Is there evidence of syndesmophyte on clinical review?"
+        ]
+      },
+      {
+        "question_id": "13.4",
+        "canonical_question": "Is HLA-B27 or another disease-relevant autoimmune marker positive?",
+        "question_vi": "",
+        "family_affinity": {
+          "INFLAMMATORY": 1.0
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "HLA-B27 positive",
+          "autoantibody positive"
+        ],
+        "variants": [
+          "Is Is HLA-B27 or another disease-relevant autoimmune marker positive clinically present?",
+          "Does the report confirm Is HLA-B27 or another disease-relevant autoimmune marker positive?",
+          "Is there evidence of HLA-B27 positive on clinical review?",
+          "Is there evidence of autoantibody positive on clinical review?"
+        ]
+      },
+      {
+        "question_id": "13.5",
+        "canonical_question": "Are symptoms episodic with inflammatory flares or peripheral joint inflammation?",
+        "question_vi": "",
+        "family_affinity": {
+          "INFLAMMATORY": 1.0
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "arthritis flare",
+          "peripheral arthritis",
+          "joint inflammation"
+        ],
+        "variants": [
+          "Is Are symptoms episodic with inflammatory flares or peripheral joint inflammation clinically present?",
+          "Does the report confirm Are symptoms episodic with inflammatory flares or peripheral joint inflammation?",
+          "Is there evidence of arthritis flare on clinical review?",
+          "Is there evidence of peripheral arthritis on clinical review?"
+        ]
+      },
+      {
+        "question_id": "16.4",
+        "canonical_question": "Are motor, sensory, reflex, straight-leg-raise, or gait abnormalities present?",
+        "question_vi": "",
+        "family_affinity": {
+          "MECHANICAL": 0.5,
+          "NEOPLASTIC": 0.2,
+          "INFECTIOUS": 0.15,
+          "INFLAMMATORY": 0.15
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "muscle weakness",
+          "sensory deficit",
+          "abnormal reflex",
+          "positive straight leg raise test",
+          "gait abnormality"
+        ],
+        "variants": [
+          "Is Are motor, sensory, reflex, straight-leg-raise, or gait abnormalities present clinically present?",
+          "Does the report confirm Are motor, sensory, reflex, straight-leg-raise, or gait abnormalities present?",
+          "Is there evidence of muscle weakness on clinical review?",
+          "Is there evidence of sensory deficit on clinical review?"
+        ]
+      }
+    ],
+    "REFERRED_PAIN": [
+      {
+        "question_id": "10.3",
+        "canonical_question": "Is there accompanying abdominal pain?",
+        "question_vi": "Anh/chị có kèm theo đau vùng bụng không?",
+        "family_affinity": {
+          "REFERRED_PAIN": 0.8,
+          "MECHANICAL": 0.2
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "abdominal pain with back pain"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal accompanying abdominal pain?",
+          "Was accompanying abdominal pain documented in the presentation?",
+          "Did examination or history confirm presence of accompanying abdominal pain?",
+          "Is there evidence of abdominal pain with back pain on clinical review?"
+        ]
+      },
+      {
+        "question_id": "10.4",
+        "canonical_question": "Is there accompanying groin pain?",
+        "question_vi": "Anh/chị có kèm theo đau vùng bẹn không?",
+        "family_affinity": {
+          "REFERRED_PAIN": 0.8,
+          "MECHANICAL": 0.2
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "groin pain with back pain"
+        ],
+        "variants": [
+          "Does clinical evaluation reveal accompanying groin pain?",
+          "Was accompanying groin pain documented in the presentation?",
+          "Did examination or history confirm presence of accompanying groin pain?",
+          "Is there evidence of groin pain with back pain on clinical review?"
+        ]
+      },
+      {
+        "question_id": "10.5",
+        "canonical_question": "Has there been a recent gastrointestinal disturbance?",
+        "question_vi": "Anh/chị có bị rối loạn tiêu hóa gần đây không?",
+        "family_affinity": {
+          "REFERRED_PAIN": 0.8,
+          "MECHANICAL": 0.2
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "gastrointestinal disturbance with back pain"
+        ],
+        "variants": [
+          "Is Has there been a recent gastrointestinal disturbance clinically present?",
+          "Does the report confirm Has there been a recent gastrointestinal disturbance?",
+          "Is there evidence of gastrointestinal disturbance with back pain on clinical review?"
+        ]
+      },
+      {
+        "question_id": "15.1",
+        "canonical_question": "Are hematuria, dysuria, flank pain, or urinary colic present?",
+        "question_vi": "",
+        "family_affinity": {
+          "REFERRED_PAIN": 1.0
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "hematuria",
+          "dysuria",
+          "renal colic",
+          "flank pain"
+        ],
+        "variants": [
+          "Is Are hematuria, dysuria, flank pain, or urinary colic present clinically present?",
+          "Does the report confirm Are hematuria, dysuria, flank pain, or urinary colic present?",
+          "Is there evidence of hematuria on clinical review?",
+          "Is there evidence of dysuria on clinical review?"
+        ]
+      },
+      {
+        "question_id": "15.2",
+        "canonical_question": "Does abdominal or pelvic imaging show a renal, urinary, gynecologic, gastrointestinal, or vascular cause?",
+        "question_vi": "",
+        "family_affinity": {
+          "REFERRED_PAIN": 1.0
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION",
+          "DIAGNOSTIC_ASSESSMENT"
+        ],
+        "ontology_seeds": [
+          "kidney lesion",
+          "ureter lesion",
+          "pelvic lesion",
+          "abdominal aortic aneurysm"
+        ],
+        "variants": [
+          "Is there evidence that abdominal or pelvic imaging show a renal, urinary, gynecologic, gastrointestinal, or vascular cause?",
+          "Did clinical investigations show that abdominal or pelvic imaging show a renal, urinary, gynecologic, gastrointestinal, or vascular cause?",
+          "Is there evidence of kidney lesion on clinical review?",
+          "Is there evidence of ureter lesion on clinical review?"
+        ]
+      },
+      {
+        "question_id": "15.3",
+        "canonical_question": "Are menstrual, pregnancy-related, pelvic, or gynecologic symptoms present?",
+        "question_vi": "",
+        "family_affinity": {
+          "REFERRED_PAIN": 1.0
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "pelvic pain",
+          "dysmenorrhea",
+          "pregnancy complication",
+          "gynecologic symptom"
+        ],
+        "variants": [
+          "Is Are menstrual, pregnancy-related, pelvic, or gynecologic symptoms present clinically present?",
+          "Does the report confirm Are menstrual, pregnancy-related, pelvic, or gynecologic symptoms present?",
+          "Is there evidence of pelvic pain on clinical review?",
+          "Is there evidence of dysmenorrhea on clinical review?"
+        ]
+      },
+      {
+        "question_id": "15.4",
+        "canonical_question": "Are pulsatile abdominal findings, vascular risk, or ischemic symptoms present?",
+        "question_vi": "",
+        "family_affinity": {
+          "REFERRED_PAIN": 1.0
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "pulsatile abdominal mass",
+          "vascular disease",
+          "ischemia"
+        ],
+        "variants": [
+          "Is Are pulsatile abdominal findings, vascular risk, or ischemic symptoms present clinically present?",
+          "Does the report confirm Are pulsatile abdominal findings, vascular risk, or ischemic symptoms present?",
+          "Is there evidence of pulsatile abdominal mass on clinical review?",
+          "Is there evidence of vascular disease on clinical review?"
+        ]
+      },
+      {
+        "question_id": "15.5",
+        "canonical_question": "Is spinal imaging normal or insufficient to explain the severity and pattern of pain?",
+        "question_vi": "",
+        "family_affinity": {
+          "REFERRED_PAIN": 1.0
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION",
+          "DIAGNOSTIC_ASSESSMENT"
+        ],
+        "ontology_seeds": [
+          "normal spinal imaging",
+          "normal magnetic resonance imaging of spine"
+        ],
+        "variants": [
+          "Is Is spinal imaging normal or insufficient to explain the severity and pattern of pain clinically present?",
+          "Does the report confirm Is spinal imaging normal or insufficient to explain the severity and pattern of pain?",
+          "Is there evidence of normal spinal imaging on clinical review?",
+          "Is there evidence of normal magnetic resonance imaging of spine on clinical review?"
+        ]
+      },
+      {
+        "question_id": "15.6",
+        "canonical_question": "Is pain linked to meals, urination, defecation, menstruation, or another non-spinal function?",
+        "question_vi": "",
+        "family_affinity": {
+          "REFERRED_PAIN": 1.0
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "postprandial pain",
+          "painful urination",
+          "painful defecation",
+          "dysmenorrhea"
+        ],
+        "variants": [
+          "Is Is pain linked to meals, urination, defecation, menstruation, or another non-spinal function clinically present?",
+          "Does the report confirm Is pain linked to meals, urination, defecation, menstruation, or another non-spinal function?",
+          "Is there evidence of postprandial pain on clinical review?",
+          "Is there evidence of painful urination on clinical review?"
+        ]
+      },
+      {
+        "question_id": "15.1",
+        "canonical_question": "Are hematuria, dysuria, flank pain, or urinary colic present?",
+        "question_vi": "",
+        "family_affinity": {
+          "REFERRED_PAIN": 1.0
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "hematuria",
+          "dysuria",
+          "renal colic",
+          "flank pain"
+        ],
+        "variants": [
+          "Is Are hematuria, dysuria, flank pain, or urinary colic present clinically present?",
+          "Does the report confirm Are hematuria, dysuria, flank pain, or urinary colic present?",
+          "Is there evidence of hematuria on clinical review?",
+          "Is there evidence of dysuria on clinical review?"
+        ]
+      },
+      {
+        "question_id": "15.2",
+        "canonical_question": "Does abdominal or pelvic imaging show a renal, urinary, gynecologic, gastrointestinal, or vascular cause?",
+        "question_vi": "",
+        "family_affinity": {
+          "REFERRED_PAIN": 1.0
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION",
+          "DIAGNOSTIC_ASSESSMENT"
+        ],
+        "ontology_seeds": [
+          "kidney lesion",
+          "ureter lesion",
+          "pelvic lesion",
+          "abdominal aortic aneurysm"
+        ],
+        "variants": [
+          "Is there evidence that abdominal or pelvic imaging show a renal, urinary, gynecologic, gastrointestinal, or vascular cause?",
+          "Did clinical investigations show that abdominal or pelvic imaging show a renal, urinary, gynecologic, gastrointestinal, or vascular cause?",
+          "Is there evidence of kidney lesion on clinical review?",
+          "Is there evidence of ureter lesion on clinical review?"
+        ]
+      },
+      {
+        "question_id": "15.3",
+        "canonical_question": "Are menstrual, pregnancy-related, pelvic, or gynecologic symptoms present?",
+        "question_vi": "",
+        "family_affinity": {
+          "REFERRED_PAIN": 1.0
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "pelvic pain",
+          "dysmenorrhea",
+          "pregnancy complication",
+          "gynecologic symptom"
+        ],
+        "variants": [
+          "Is Are menstrual, pregnancy-related, pelvic, or gynecologic symptoms present clinically present?",
+          "Does the report confirm Are menstrual, pregnancy-related, pelvic, or gynecologic symptoms present?",
+          "Is there evidence of pelvic pain on clinical review?",
+          "Is there evidence of dysmenorrhea on clinical review?"
+        ]
+      },
+      {
+        "question_id": "15.4",
+        "canonical_question": "Are pulsatile abdominal findings, vascular risk, or ischemic symptoms present?",
+        "question_vi": "",
+        "family_affinity": {
+          "REFERRED_PAIN": 1.0
+        },
+        "preferred_sections": [
+          "PAST_MEDICAL_HISTORY",
+          "PRESENTING_SYMPTOMS",
+          "EXAMINATION_INVESTIGATION"
+        ],
+        "ontology_seeds": [
+          "pulsatile abdominal mass",
+          "vascular disease",
+          "ischemia"
+        ],
+        "variants": [
+          "Is Are pulsatile abdominal findings, vascular risk, or ischemic symptoms present clinically present?",
+          "Does the report confirm Are pulsatile abdominal findings, vascular risk, or ischemic symptoms present?",
+          "Is there evidence of pulsatile abdominal mass on clinical review?",
+          "Is there evidence of vascular disease on clinical review?"
+        ]
+      },
+      {
+        "question_id": "15.5",
+        "canonical_question": "Is spinal imaging normal or insufficient to explain the severity and pattern of pain?",
+        "question_vi": "",
+        "family_affinity": {
+          "REFERRED_PAIN": 1.0
+        },
+        "preferred_sections": [
+          "EXAMINATION_INVESTIGATION",
+          "DIAGNOSTIC_ASSESSMENT"
+        ],
+        "ontology_seeds": [
+          "normal spinal imaging",
+          "normal magnetic resonance imaging of spine"
+        ],
+        "variants": [
+          "Is Is spinal imaging normal or insufficient to explain the severity and pattern of pain clinically present?",
+          "Does the report confirm Is spinal imaging normal or insufficient to explain the severity and pattern of pain?",
+          "Is there evidence of normal spinal imaging on clinical review?",
+          "Is there evidence of normal magnetic resonance imaging of spine on clinical review?"
+        ]
+      },
+      {
+        "question_id": "15.6",
+        "canonical_question": "Is pain linked to meals, urination, defecation, menstruation, or another non-spinal function?",
+        "question_vi": "",
+        "family_affinity": {
+          "REFERRED_PAIN": 1.0
+        },
+        "preferred_sections": [
+          "PRESENTING_SYMPTOMS"
+        ],
+        "ontology_seeds": [
+          "postprandial pain",
+          "painful urination",
+          "painful defecation",
+          "dysmenorrhea"
+        ],
+        "variants": [
+          "Is Is pain linked to meals, urination, defecation, menstruation, or another non-spinal function clinically present?",
+          "Does the report confirm Is pain linked to meals, urination, defecation, menstruation, or another non-spinal function?",
+          "Is there evidence of postprandial pain on clinical review?",
+          "Is there evidence of painful urination on clinical review?"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "version": "casekg-paraphrase-v1.0",
+  "generated_at": "2026-11-17T21:41:01.383403",
+  "engine_policy": {
+    "primary_backend": "template_and_synonym_swapping",
+    "fallback_backend": "masked_contextual_rewriter",
+    "max_augmentations_per_seed": 3,
+    "rare_class_multiplier": {
+      "METABOLIC": 3,
+      "INFLAMMATORY": 4,
+      "REFERRED_PAIN": 8
+    }
+  },
+  "placeholder_protection": {
+    "placeholder_pattern": "<ENT_(?P<type>[A-Z_]+)_(?P<id>\\d+)>",
+    "placeholder_template": "<ENT_{entity_type}_{entity_id}>",
+    "protected_entity_types": [
+      "Disease_disorder",
+      "Sign_symptom",
+      "Diagnostic_procedure",
+      "Therapeutic_procedure",
+      "Biological_structure",
+      "Medication"
+    ]
+  },
+  "immutable_patterns": [
+    {
+      "name": "vital_signs_blood_pressure",
+      "regex": "\\b\\d{2,3}\\s*/\\s*\\d{2,3}\\s*(?:mm\\s*hg)?\\b",
+      "description": "Blood pressure measurements (e.g. 135/70 mmHg)"
+    },
+    {
+      "name": "vital_signs_heart_rate",
+      "regex": "\\b\\d{2,3}\\s*(?:beats\\s*per\\s*minute|bpm)\\b",
+      "description": "Heart rate / pulse readings"
+    },
+    {
+      "name": "vital_signs_temperature",
+      "regex": "\\b\\d{2}(?:\\.\\d)?\\s*°\\s*[CF]\\b",
+      "description": "Body temperature (e.g. 38.5 °C)"
+    },
+    {
+      "name": "vital_signs_respiratory_rate",
+      "regex": "\\b\\d{1,2}\\s*(?:breaths\\s*per\\s*minute|breaths/min|rpm)\\b",
+      "description": "Respiratory rate readings"
+    },
+    {
+      "name": "vital_signs_oxygen_saturation",
+      "regex": "\\b\\d{2,3}\\s*%\\s*(?:on\\s*room\\s*air)?\\b",
+      "description": "Oxygen saturation (e.g. 96% on room air)"
+    },
+    {
+      "name": "laboratory_numerical_values",
+      "regex": "\\b\\d+(?:\\.\\d+)?\\s*(?:mg/[dD][lL]|mg/[lL]|g/[dD][lL]|mmol/[lL]|µmol/[lL]|×\\s*10\\^?\\d+/[lL])\\b",
+      "description": "Laboratory measurements and standard clinical units"
+    },
+    {
+      "name": "clinical_temporal_anchors",
+      "regex": "\\b\\d+\\s*(?:day|week|month|year)s?\\s*(?:ago|history|duration|prior)?\\b",
+      "description": "Temporal durations anchoring symptoms"
+    }
+  ],
+  "assertion_channels": {
+    "preserve_negation_keywords": [
+      "no",
+      "not",
+      "without",
+      "denies",
+      "denied",
+      "absence of",
+      "negative for",
+      "ruled out",
+      "never"
+    ],
+    "preserve_uncertainty_keywords": [
+      "possible",
+      "probable",
+      "suspected",
+      "suggestive of",
+      "cannot exclude",
+      "differential"
+    ],
+    "rule": "Never invert assertion channel. If a clause has negation, the paraphrased clause must retain negation."
+  },
+  "clause_rewrite_templates": [
+    {
+      "category": "presentation_onset",
+      "source_pattern": "^An? (?P<age>\\d+)-year-old (?P<gender>male|female|man|woman) presented with (?P<symptom>.+?)\\.$",
+      "replacements": [
+        "A {age}-year-old {gender} was admitted presenting with {symptom}.",
+        "The patient, a {age}-year-old {gender}, presented complaining of {symptom}.",
+        "A {age}-year-old {gender} presented to the emergency department reporting {symptom}."
+      ]
+    },
+    {
+      "category": "physical_exam_tenderness",
+      "source_pattern": "^On physical examination, (?P<finding>.+?)\\.$",
+      "replacements": [
+        "Physical examination demonstrated {finding}.",
+        "Clinical examination revealed {finding}.",
+        "On physical assessment, {finding} was noted."
+      ]
+    },
+    {
+      "category": "imaging_findings",
+      "source_pattern": "^(?P<modality>MRI|CT|X-ray|radiograph) (?:of the [^ ]+ )?(?:demonstrated|showed|revealed) (?P<finding>.+?)\\.$",
+      "replacements": [
+        "{modality} demonstrated evidence of {finding}.",
+        "Imaging with {modality} identified {finding}.",
+        "{modality} evaluation revealed findings consistent with {finding}."
+      ]
+    }
+  ]
+}

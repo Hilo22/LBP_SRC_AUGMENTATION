@@ -1,0 +1,26 @@
+{
+  "version": "casekg-augmentation-v1.1",
+  "generated_at": "2026-11-18T10:04:08.009294",
+  "cohort_source": "results/causal_mapping_audit/CURRENT_SOURCE_ISOLATED_PRIMARY_ROWS.jsonl",
+  "cohort_cases": 57,
+  "augmented_variants_generated": 78,
+  "train_only_augmented_variants": 59,
+  "variants_by_family": {
+    "INFECTIOUS": 9,
+    "NEOPLASTIC": 21,
+    "MECHANICAL": 13,
+    "INFLAMMATORY": 13,
+    "METABOLIC": 14,
+    "REFERRED_PAIN": 8
+  },
+  "total_edits_applied": 244,
+  "total_entity_spans_verified": 5380,
+  "offset_alignment_rate": 1.0,
+  "audit_samples_exported": 40,
+  "files": {
+    "AUGMENTED_VARIANTS.jsonl": "24791cd098120cc94d9053e6aa49a5838d7ed03036dbc2d1e07fd662003eeeff",
+    "TRAIN_AUGMENTED_VARIANTS.jsonl": "71f60dd2438fc877a72c5ccff0026b261d6bc6684652555402527383a8cc3b20",
+    "CLINICAL_AUDIT_40_SAMPLES.jsonl": "e5c67b0001cf9d9e0c649de8f2471c0850657c4cae04990113101f49f583de07",
+    "CLINICAL_AUDIT_40_SAMPLES.md": "8b246f0ae40053bb111aa7134aa4335f24c7ae31e229bbb459b93eeb75af20ec"
+  }
+}
