@@ -154,5 +154,54 @@ Sau khi hoàn tất bàn giao gói kỹ thuật `v1.1`, Minh Hiếu sẽ:
    - Sau khi Phúc hoàn tất review lâm sàng và Minh chạy xong Ablation Study, Hiếu sẽ tổng hợp số liệu để viết phần phân tích thực nghiệm và vẽ biểu đồ hiệu năng.
 
 ---
+
+## PHẦN 5: HƯỚNG DẪN QUẢN LÝ TÀI NGUYÊN NẶNG & MÔI TRƯỜNG THỰC THI (RESOURCE & ENVIRONMENT GUIDE)
+
+### 1. Vì sao các thư mục `data/`, `resources/`, `models/`, `results/` không đưa lên Git?
+Toàn bộ các thư mục này có tổng dung lượng lên tới **~9,38 GB** và chứa nhiều tệp nhị phân lớn vượt giới hạn **100 MB** của GitHub:
+- **`models/` (~2,10 GB):** Chứa trọng số PyTorch và checkpoints của các mô hình ngôn ngữ lâm sàng (PubMedBERT, ClinicalBERT, `CURRENT_DIAGNOSIS_RESEARCH_MODEL.joblib`).
+- **`resources/` (~1,66 GB):** Chứa cơ sở dữ liệu đồ thị tri thức DuckDB (`casekg_orbit.duckdb`) và kho ontology y sinh UMLS / SNOMED-CT / SAPBERT.
+- **`data/` (~1,57 GB):** Chứa toàn bộ kho bài báo thô (>1.000 ca), các ca bệnh đã qua phân tách token và tập `orbit_auxiliary` (379 ca).
+- **`results/` (~4,05 GB):** Chứa ma trận đặc trưng trích xuất, đồ thị ngữ nghĩa trung gian (`SEMANTIC_GRAPH_EVIDENCE`) và cache tính toán.
+
+> **Quy chuẩn lưu trữ của nhóm:** Toàn bộ 4 thư mục nặng này được lưu trữ tập trung trên **Google Drive của Lab/Nhóm**. Git chỉ quản lý mã nguồn, cấu hình, và các gói kết quả nhẹ đã qua chuẩn hóa.
+
+---
+
+### 2. Hướng dẫn dành cho Thành viên khi Clone Repo về máy mới
+
+Khi clone mã nguồn từ GitHub về, tùy theo mục đích công việc, thành viên làm theo 2 tình huống sau:
+
+#### 👉 Tình huống A: Dùng ngay để Audit Lâm sàng hoặc Huấn luyện Mô hình với Data Augmentation
+**HOÀN TOÀN KHÔNG CẦN TẢI THÊM 9,4 GB FILE NẶNG TỪ DRIVE!**  
+Gói Git hiện tại đã tích hợp sẵn toàn bộ dữ liệu cần thiết:
+1. **Dành cho Phúc (Audit lâm sàng):**
+   - Mở trực tiếp file `results/augmentation/v1/CLINICAL_AUDIT_40_SAMPLES.md` trên GitHub hoặc VS Code để rà soát 40 cặp mẫu đối chiếu.
+2. **Dành cho Minh (Huấn luyện phân loại):**
+   - Đã có sẵn file `results/augmentation/v1/TRAIN_AUGMENTED_VARIANTS.jsonl` (59 ca biến thể thuần train) và `resources/augmentation/lbp_synonym_dictionary.json` để đưa trực tiếp vào training loop.
+
+#### 👉 Tình huống B: Muốn chạy lại toàn bộ Pipeline End-to-End từ đầu
+Nếu muốn tái lập toàn bộ pipeline từ văn bản thô $\rightarrow$ trích xuất đặc trưng đồ thị tri thức $\rightarrow$ chạy toàn bộ mô hình:
+1. Truy cập vào **Google Drive của Nhóm** và tải các gói tương ứng:
+   - `resources/` (bắt buộc phải có `resources/kg/casekg_orbit.duckdb`).
+   - `data/` (bắt buộc nếu muốn chạy thực nghiệm Mốc 3 với 379 ca từ `data/isolated_development/orbit_auxiliary/`).
+   - `models/` (bắt buộc nếu muốn suy luận lại embedding từ BERT gốc).
+2. Giải nén đè trực tiếp vào thư mục gốc của repo theo cấu trúc:
+   ```text
+   NCKH/
+   ├── data/
+   ├── resources/
+   ├── models/
+   ├── results/
+   ├── src/
+   └── tests/
+   ```
+3. Chạy lệnh kiểm tra tính nguyên vẹn:
+   ```bash
+   python tools/maintenance/seal_code_layout.py
+   # Kết quả kỳ vọng: {"files": 479, "mismatches": []}
+   ```
+
+---
 *Tài liệu được lập và xác thực tự động bởi Minh Hiếu — Nhóm Nghiên cứu CASEKG.*  
 *Toàn bộ chữ ký SHA256 được lưu trữ tại `results/augmentation/v1/MANIFEST.json`.*
